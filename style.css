@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: #FFF7FC;
+    height: 90rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.098);
+}
+
+.no-margin{
+    font-size: 25px;
+    margin: 0;
+    padding: 25px;
+}
+img{
+    padding-left: 20px;
+    height: 50px;
+    width: auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+div.width{
+    margin-top: 20px;
+    padding-bottom: 80px;
+}
+h4.center{
+    font-weight: 600;
+}
+p.center{
+    font-weight: 600;
+    min-width: 80%;
+    width: 10vw;
+    margin: auto;
+}
+
+.divs-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+    gap: 70px;
+}
+
+.display{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 37.5rem;
+    border: 1px rgba(0, 0, 0, 0.155) solid;
+}
+
+.btn{
+    margin: 0 auto;
+    width: 15rem;
+}
+.blockquote{
+
+    margin: auto; 
+    padding: 20px; 
+    align-items: center;
+}
+@media only screen and (max-width: 1050px) {
+    .divs-container{
+        display: flex;
+        align-items: center;
+        gap: 70px;
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .display{
+        width: 30rem;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .display{
+        width: 25rem;
+    }
+  }
